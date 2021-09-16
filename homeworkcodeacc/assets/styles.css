@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* #main1 h2{
+position: relative;
+}
+#main1 h2::after{
+position: absolute;
+content: "";
+width: 150px;
+height: 3px;
+top: 0px;
+bottom: 0px;
+background-color: red;
+} */
+.card{
+    padding: 30px;
+    position: relative;
+    margin-left: 60px;
+}
+.card h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 300px;
+    top: 70px;
+}
+.card p{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 110px;
+    left: 300px;
+    width: 200px;
+    bottom: 0px;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+}
+#main2{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#main1{
+    padding-left: 40px;
+    margin-left: 58px;
+}
+.text{
+    width: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+.text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
